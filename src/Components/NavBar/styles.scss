@@ -1,0 +1,76 @@
+.nav-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #1A0B2E;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 60px;
+
+
+  .logo {
+    width: 15%;
+    color: #FFFFFF;
+    font-size: 2rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+
+    &__logo2 {
+      height: 3rem;
+      margin-right: 15px;
+    }
+  }
+
+  .nav-area {
+    width: 70%;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+
+  .nav-links li {
+    padding: 0 0.5rem;
+  }
+
+  .nav-links a {
+    color: #F5F5F5;
+    font-family: 'JetBrains Mono', monospace;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  .nav-links a:hover {
+    color: #8D8993;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .burger div {
+    width: 2rem;
+    height: 0.2rem;
+    background-color: #fff;
+    margin: 0.5rem 0;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .controles {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__login {
+      height: 120%;
+      cursor: pointer;
+    }
+  }
+}
